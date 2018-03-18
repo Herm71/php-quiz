@@ -1,3 +1,3 @@
 <?php
 die("Tsk, tsk. You're not supposed to be here!  ");
-?>
+?>{"first-name":"Walter","last-name":"Mathau","email":"walmath@yourmom.com","phone":"555-1122","question-1-answers":"K","question-2-answers":"B","question-3-answers":"G","question-4-answers":"M","question-5-answers":"C","question-6-answers":"F","question-7-answers":"H","question-8-answers":"I","question-9-answers":"L","question-10-answers":"J","question-11-answers":"D","question-12-answers":"E","question-13-answers":"A"}

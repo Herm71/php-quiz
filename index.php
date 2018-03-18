@@ -67,8 +67,11 @@
             <ol>
             
                 <li>
+                <?php $alumni1 = "Axel Alonzo";
+                $alumni1Job = "K) Comics visionary";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Axel Alonso</h3>
+                    <h3><?php echo $alumni1?></h3>
                     <select name="question-1-answers">
                 <option value="">Select one</option>
                 <option id="question-1-answers-A" value="A">A) CEO of YouTube</option>
@@ -88,8 +91,11 @@
                 </li>
                 
                 <li>
+                <?php $alumni2 = "Adilah Barnes";
+                $alumni2Job = "B) Award-winning film, television, and stage actor";
+                ?>
                     <img src="http://via.placeholder.com/150x200">
-                    <h3>Adilah Barnes</h3>
+                    <h3><?php echo $alumni2?></h3>
                     <select name="question-2-answers">
                 <option value="">Select one</option>
                 <option id="question-2-answers-A" value="A">A) CEO of YouTube</option>
@@ -110,9 +116,11 @@
                 </li>
                 
                 <li>
-
+                <?php $alumni3 = "Kevin Beggs";
+                $alumni3Job = "G) Chairman of Lionsgate Television Group";
+                ?>
                     <img src="http://via.placeholder.com/150x200">
-                    <h3>Kevin Beggs</h3>
+                    <h3><?php echo $alumni3?></h3>
                     <select name="question-3-answers">
                 <option value="">Select one</option>
                 <option id="question-3-answers-A" value="A">A) CEO of YouTube</option>
@@ -133,9 +141,11 @@
                 </li>
                 
                 <li>
-                
+                <?php $alumni4 = "Reyna Grande";
+                $alumni4Job = "M) Award-winning novelist and memoirist";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Reyna Grande</h3>
+                    <h3><?php echo $alumni4?></h3>
                     <select name="question-4-answers">
                 <option value="">Select one</option>
                 <option id="question-4-answers-A" value="A">A) CEO of YouTube</option>
@@ -156,8 +166,11 @@
                 </li>
                 
                 <li>
+                <?php $alumni5 = "John Laird";
+                $alumni5Job = "C) California Secretary of Natural Resources";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>John Laird</h3>
+                    <h3><?php echo $alumni5?></h3>
                     <select name="question-5-answers">
                 <option value="">Select one</option>
                 <option id="question-5-answers-A" value="A">A) CEO of YouTube</option>
@@ -177,8 +190,11 @@
                 
                 </li>
             <li>
+            <?php $alumni6 = "Martha Mendoza";
+                $alumni6Job = "F) Two-time Pulitzer Prize-winning Associate Press reporter";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Martha Mendoza</h3>
+                    <h3><?php echo $alumni6?></h3>
                     <select name="question-6-answers">
                 <option value="">Select one</option>
                 <option id="question-6-answers-A" value="A">A) CEO of YouTube</option>
@@ -197,8 +213,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni7 = "Kent Nagano";
+                $alumni7Job = "H) Opera and symphony conductor";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Kent Nagano</h3>
+                    <h3><?php echo $alumni7?></h3>
                     <select name="question-7-answers">
                 <option value="">Select one</option>
                 <option id="question-7-answers-A" value="A">A) CEO of YouTube</option>
@@ -217,8 +236,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni8 = "Julie Packard";
+                $alumni8Job = "I) Monterey Bay Aquarium executive director";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Julie Packard</h3>
+                    <h3><?php echo $alumni8?></h3>
                     <select name="question-8-answers">
                 <option value="">Select one</option>
                 <option id="question-8-answers-A" value="A">A) CEO of YouTube</option>
@@ -237,8 +259,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni9 = "Kris Perry";
+                $alumni9Job = "L) Marriage equality trailblazer";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Kris Perry</h3>
+                    <h3><?php echo $alumni9?></h3>
                     <select name="question-9-answers">
                 <option value="">Select one</option>
                 <option id="question-9-answers-A" value="A">A) CEO of YouTube</option>
@@ -257,8 +282,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni10 = "M Sanjayan";
+                $alumni10Job = "L) Marriage equality trailblazer";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>M Sanjayan</h3>
+                    <h3><?php echo $alumni10?></h3>
                     <select name="question-10-answers">
                 <option value="">Select one</option>
                 <option id="question-10-answers-A" value="A">A) CEO of YouTube</option>
@@ -277,8 +305,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni11 = "Kathryn Sullivan";
+                $alumni11Job = "D) Scientist, astronaut, and award-winning educator";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Kathryn Sullivan</h3>
+                    <h3><?php echo $alumni11?></h3>
                     <select name="question-11-answers">
                 <option value="">Select one</option>
                 <option id="question-11-answers-A" value="A">A) CEO of YouTube</option>
@@ -297,8 +328,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni12 = "Sage Weil";
+                $alumni12Job = "E) Tech entrepreneur";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Sage Weil</h3>
+                    <h3><?php echo $alumni12?></h3>
                     <select name="question-12-answers">
                 <option value="">Select one</option>
                 <option id="question-12-answers-A" value="A">A) CEO of YouTube</option>
@@ -317,8 +351,11 @@
                     </select>                  
             </li>
             <li>
+            <?php $alumni13 = "Susan Wojcicki";
+                $alumni13Job = "A) CEO of YouTube";
+                ?>
                 <img src="http://via.placeholder.com/150x200">
-                    <h3>Sage Weil</h3>
+                    <h3><?php echo $alumni13?></h3>
                     <select name="question-13-answers">
                 <option value="">Select one</option>
                 <option id="question-13-answers-A" value="A">A) CEO of YouTube</option>
