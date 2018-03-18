@@ -16,26 +16,42 @@
 		<h1>Final Quiz for Lip building</h1>
 		
         <?php
-            
+            $firstName = $_POST['first-name'];	
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
             $answer3 = $_POST['question-3-answers'];
             $answer4 = $_POST['question-4-answers'];
-            $answer5 = $_POST['question-5-answers'];
+			$answer5 = $_POST['question-5-answers'];
+			$answer6 = $_POST['question-6-answers'];
+			$answer7 = $_POST['question-7-answers'];
+			$answer8 = $_POST['question-8-answers'];
+			$answer9 = $_POST['question-9-answers'];
+			$answer10 = $_POST['question-10-answers'];
+			$answer11 = $_POST['question-11-answers'];
+			$answer12 = $_POST['question-12-answers'];
+			$answer13 = $_POST['question-13-answers'];
         
             $totalCorrect = 0;
             
-            if ($answer1 == "B") { $totalCorrect++; }
-            if ($answer2 == "A") { $totalCorrect++; }
-            if ($answer3 == "C") { $totalCorrect++; }
-            if ($answer4 == "D") { $totalCorrect++; }
-            if ($answer5) { $totalCorrect++; }
-            
-			echo "<div id='results'>$totalCorrect / 5 correct</div>";
-			$file = 'results.JSON';
+            if ($answer1 == "K") { $totalCorrect++; }
+            if ($answer2 == "B") { $totalCorrect++; }
+            if ($answer3 == "G") { $totalCorrect++; }
+            if ($answer4 == "M") { $totalCorrect++; }
+			if ($answer5 == "C") { $totalCorrect++; }
+			if ($answer6 == "F") { $totalCorrect++; }
+			if ($answer7 == "H") { $totalCorrect++; }
+			if ($answer8 == "I") { $totalCorrect++; }
+			if ($answer9 == "L") { $totalCorrect++; }
+			if ($answer10 == "J") { $totalCorrect++; }
+			if ($answer11 == "D") { $totalCorrect++; }
+			if ($answer12 == "E") { $totalCorrect++; }
+			if ($answer13 == "A") { $totalCorrect++; }
+            echo "<p>Nice try,".$firstName."</p>";
+			echo "<div id='results'>$totalCorrect / 13 correct</div>";
+			$file = 'results.php';
 			$json = json_encode($_POST);
 			var_dump($json);
-			file_put_contents($file,$json, FILE_APPEND);
+			file_put_contents($file,$json, FILE_APPEND | LOCK_EX);
             
         ?>
 	
