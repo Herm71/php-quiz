@@ -48,8 +48,9 @@
 //     $data = htmlspecialchars($data);
 //     return $data;
 //   }
-?> -->
 
+?> -->
+<?php include 'alumni-variables.php';?>
 <body>
 
 	<div id="page-wrap">
@@ -67,9 +68,7 @@
             <ol>
             
                 <li>
-                <?php $alumni1 = "Axel Alonzo";
-                $alumni1Job = "K) Comics visionary";
-                ?>
+                
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni1?></h3>
                     <select name="question-1-answers">
@@ -91,9 +90,7 @@
                 </li>
                 
                 <li>
-                <?php $alumni2 = "Adilah Barnes";
-                $alumni2Job = "B) Award-winning film, television, and stage actor";
-                ?>
+               
                     <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni2?></h3>
                     <select name="question-2-answers">
@@ -116,9 +113,7 @@
                 </li>
                 
                 <li>
-                <?php $alumni3 = "Kevin Beggs";
-                $alumni3Job = "G) Chairman of Lionsgate Television Group";
-                ?>
+                
                     <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni3?></h3>
                     <select name="question-3-answers">
@@ -141,9 +136,7 @@
                 </li>
                 
                 <li>
-                <?php $alumni4 = "Reyna Grande";
-                $alumni4Job = "M) Award-winning novelist and memoirist";
-                ?>
+              
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni4?></h3>
                     <select name="question-4-answers">
@@ -166,9 +159,7 @@
                 </li>
                 
                 <li>
-                <?php $alumni5 = "John Laird";
-                $alumni5Job = "C) California Secretary of Natural Resources";
-                ?>
+
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni5?></h3>
                     <select name="question-5-answers">
@@ -190,9 +181,7 @@
                 
                 </li>
             <li>
-            <?php $alumni6 = "Martha Mendoza";
-                $alumni6Job = "F) Two-time Pulitzer Prize-winning Associate Press reporter";
-                ?>
+
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni6?></h3>
                     <select name="question-6-answers">
@@ -213,9 +202,7 @@
                     </select>                  
             </li>
             <li>
-            <?php $alumni7 = "Kent Nagano";
-                $alumni7Job = "H) Opera and symphony conductor";
-                ?>
+
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni7?></h3>
                     <select name="question-7-answers">
@@ -236,9 +223,7 @@
                     </select>                  
             </li>
             <li>
-            <?php $alumni8 = "Julie Packard";
-                $alumni8Job = "I) Monterey Bay Aquarium executive director";
-                ?>
+           
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni8?></h3>
                     <select name="question-8-answers">
@@ -305,9 +290,7 @@
                     </select>                  
             </li>
             <li>
-            <?php $alumni11 = "Kathryn Sullivan";
-                $alumni11Job = "D) Scientist, astronaut, and award-winning educator";
-                ?>
+       
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni11?></h3>
                     <select name="question-11-answers">
@@ -328,9 +311,7 @@
                     </select>                  
             </li>
             <li>
-            <?php $alumni12 = "Sage Weil";
-                $alumni12Job = "E) Tech entrepreneur";
-                ?>
+
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni12?></h3>
                     <select name="question-12-answers">
@@ -351,9 +332,7 @@
                     </select>                  
             </li>
             <li>
-            <?php $alumni13 = "Susan Wojcicki";
-                $alumni13Job = "A) CEO of YouTube";
-                ?>
+
                 <img src="http://via.placeholder.com/150x200">
                     <h3><?php echo $alumni13?></h3>
                     <select name="question-13-answers">
@@ -375,22 +354,12 @@
             </li>
             </ol>
             <div class="clear"></div>
-            <input type="submit" value="Submit Quiz" />
-            <input type="reset" value="Reset the form">
+            <button type="submit" value="Submit Quiz" />Submit Quiz</button>
+            <input type="reset" value="Reset the form" />
 		
 		</form>
         
 	</div>
-	
-	<!-- <script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-68528-29");
-	pageTracker._initData();
-	pageTracker._trackPageview();
-	</script> -->
 
 </body>
 

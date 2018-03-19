@@ -13,9 +13,10 @@
 
 	<div id="page-wrap">
 
-		<h1>Final Quiz for Lip building</h1>
+		<h1>UC Santa Cruz Alumni Quiz Results</h1>
 		
         <?php
+		include 'alumni-variables.php';
             $firstName = $_POST['first-name'];	
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -46,26 +47,66 @@
 			if ($answer11 == "D") { $totalCorrect++; }
 			if ($answer12 == "E") { $totalCorrect++; }
 			if ($answer13 == "A") { $totalCorrect++; }
-            echo "<p>Nice try,".$firstName."</p>";
-			echo "<div id='results'>$totalCorrect / 13 correct</div>";
-			$file = 'results.php';
-			$json = json_encode($_POST);
-			var_dump($json);
-			file_put_contents($file,$json, FILE_APPEND | LOCK_EX);
-            
-        ?>
+			// Correct Answers
+			if($answer1 == "K" && $answer2 == "B" && $answer3 == "G" && $answer4 == "M" && $answer5 == "C" && $answer6 == "F" && $answer7 == "H" && $answer8 == "I" && $answer9 == "L" && $answer10 == "J" && $answer11 == "D" && $answer12 == "E" && $answer13 == "A")
+				{
+					echo "<p>Nice try, ".$firstName."</p>";
+					echo "<div class='results'>
+					<ol>
+					
+					<li><h3>".$alumni1."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni1Job."</p>
+					</li>
+					<li><h3>".$alumni2."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni2Job."</p>
+					</li>
+					<li><h3>".$alumni3."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni3Job."</p>
+					</li>
+					<li><h3>".$alumni4."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni4Job."</p>
+					</li>
+					<li><h3>".$alumni5."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni5Job."</p>
+					</li>
+					<li><h3>".$alumni6."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni6Job."</p>
+					</li>
+					<li><h3>".$alumni7."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni7Job."</p>
+					</li>
+					<li><h3>".$alumni8."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni8Job."</p>
+					</li>
+					<li><h3>".$alumni9."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni9Job."</p>
+					</li>
+					<li><h3>".$alumni10."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni10Job."</p>
+					</li>
+					<li><h3>".$alumni11."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni11Job."</p>
+					</li>
+					<li><h3>".$alumni12."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni12Job."</p>
+					</li>
+					<li><h3>".$alumni13."</h3>
+					<img src='http://via.placeholder.com/100x150'><p>".$alumni13Job."</p>
+					</li>
+					</ol></div>";
+							echo "<div id='results'>$totalCorrect / 13 correct</div>";
+							$file = 'results.php';
+							$json = json_encode($_POST);
+							var_dump($json);
+							file_put_contents($file,$json, FILE_APPEND | LOCK_EX);
+				} else {
+					echo "<p>You Lose! ".$firstName."</p>";
+							echo "<div id='results'>$totalCorrect / 13 correct</div>";
+							echo '<button type="reset" value="Try again" />Try Again</button>';
+				}
+      ?>
 	
 	</div>
-	
-	<!-- <script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-68528-29");
-	pageTracker._initData();
-	pageTracker._trackPageview();
-	</script> -->
 
 </body>
 
