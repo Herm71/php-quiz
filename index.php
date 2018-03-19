@@ -334,7 +334,7 @@
                 <option id="question-13-answers-A" value="<?php echo htmlspecialchars($a);?>"><?php echo htmlspecialchars($a);?></option>
                 <option id="question-13-answers-B" value="<?php echo htmlspecialchars($b);?>"><?php echo htmlspecialchars($b);?></option>
                 <option id="question-13-answers-C" value="<?php echo htmlspecialchars($c);?>"><?php echo htmlspecialchars($c);?></option>
-                <option id="question-13-answers-D" value="<?php echo htmlspecialchars($d);?>"><?php echo htmlspecialchars($d);?>r</option>
+                <option id="question-13-answers-D" value="<?php echo htmlspecialchars($d);?>"><?php echo htmlspecialchars($d);?></option>
                 <option id="question-13-answers-E" value="<?php echo htmlspecialchars($e);?>"><?php echo htmlspecialchars($e);?></option>
                 <option id="question-13-answers-F" value="<?php echo htmlspecialchars($f);?>"><?php echo htmlspecialchars($f);?></option>
                 <option id="question-13-answers-G" value="<?php echo htmlspecialchars($g);?>"><?php echo htmlspecialchars($g);?></option>
